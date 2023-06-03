@@ -4,4 +4,4 @@ class Task2:
         return                                                                                                                                               
                                                                                                                                                              
     def Task2_Run(self):                                                                                                                                     
-        print("Task 2 is activated!!!!")
+        print("Hello 2")
