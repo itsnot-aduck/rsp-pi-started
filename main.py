@@ -3,7 +3,6 @@ import time
 from task1 import Task1                                                                                                                                      
 from task2 import Task2                                                                                                                                      
 from datetime import datetime         
-#pip install adafruit-io
 import random
 import  sys
 from  Adafruit_IO import  MQTTClient
@@ -24,8 +23,8 @@ scheduler = Scheduler()
 task1 = Task1()                                                                                                                                              
 task2 = Task2()                                                                                                                                              
                                                                                                                                                              
-scheduler.SCH_Add_Task(task1.Task1_Run, 1000,5000) # 1s sau chạy và 5s chạy 1 lần                                                                            
-scheduler.SCH_Add_Task(task2.Task2_Run, 3000,5000) # nếu task thực hiện 1 lần thì 5000 để thành 0                                                            
+scheduler.SCH_Add_Task(task1.Task1_Run, 1000,5000)                                                          
+scheduler.SCH_Add_Task(task2.Task2_Run, 3000,5000)                                                          
                                                                                                                                                              
 # print("Hour:", hour)                                                                                                                                       
 # print("Minute:", minute)                                                                                                                                   
